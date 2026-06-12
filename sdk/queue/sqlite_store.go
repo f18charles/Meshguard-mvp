@@ -8,10 +8,10 @@ import (
 	"database/sql"
 	"fmt"
 	"time"
+	"meshguard/sdk/types"
 
-	"Meshguard/sdk/types"
-
-	_ "github.com/mattn/go-sqlite3"
+	
+	_  "github.com/mattn/go-sqlite3"
 )
 
 // SQLiteStore implements EventStore using embedded SQLite
